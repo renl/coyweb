@@ -7,25 +7,44 @@
 {% block body_class %}home{% endblock %}
 
 {% block banner %}
-    <h1>{% trans "Welcome to Pinax" %}</h1>
+    <h1>{% trans "Some big heading" %}</h1>
     <p>
         {% blocktrans %}
-        <b>Pinax</b> is a <a href="http://djangoproject.com/">Django</a>
-        project intended to provide a starting point for websites. By
-        integrating numerous reusable Django apps to take care of the
-        things that many sites have in common, it lets you focus on what
-        makes your site different.
+        to add description and <a href="http://djangoproject.com/">link</a>
         {% endblocktrans %}
     </p>
     
-    <h2>About Zero Project</h2>
+    <h2>More not so big heading</h2>
     <p>
         {% blocktrans %}
-        This project lays the foundation for all other Pinax starter projects. It
-        provides the project directory layout and some key infrastructure apps on
-        which the other starter projects are based.
+        to add more descriptions
         {% endblocktrans %}
     </p>
     
     <p><a href="http://pinaxproject.com/" class="btn primary large">{% trans "Learn more &raquo;" %}</a></p>
 {% endblock %}
+
+{% block column-1 %}
+    <h2>Heading 1</h2>
+    <p>to add details</p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+{% endblock %}
+
+{% block column-2 %}
+    <h2>Heading 2</h2>
+    <p>to add details</p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+{% endblock %}
+
+{% block column-3 %}
+    <h2>Heading 3</h2>
+    <p>to add details</p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+{% endblock %}
+
+{% block column-4 %}
+    <h2>Heading 4</h2>
+    <p>to add details</p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+{% endblock %}
+
